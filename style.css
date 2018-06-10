@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+}
+.students_table{
+    background-color: lightyellow;
+    border-bottom: 3px dashed slateblue;
+    margin: 0;
+    padding: 30px;
+}
+
+.diagramme-section{
+    background-color: lightyellow;
+    margin: 0;
+    padding: 60px 0;
+    
+}
+
+.common_group_result{
+    padding: 30px;
+    background: lightcyan;
+    border-bottom: 3px dashed slateblue;
+}
+/*table  */
+table {
+    border-collapse: collapse;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 25px;
+}
+
+td {
+    padding:5px;
+    margin: 5px;
+}
+
+#mainLine td:first-child {
+    background-color: rgba(150,255,140,0.4);
+}
+
+#mainLine td{
+    background-color: rgba(150,255,140,0.4);
+}
+
+#mainLine input{
+    width: 140px;
+    font-size: 15px;
+}
+
+td input{
+    border-radius: 5px;
+    width: 70px;
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+}
+
+
+
+tr:hover {
+    background-color: rgba(150,255,140,0.4);
+}
+
+td input:hover {
+    border-color: rgb(150,255,140);
+}
+
+/*    < /table>      */
+
+.diagramme_button_section{
+    margin: 20px;
+}
+
+.students_btn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-right: 20px; 
+}
+
+input[type="button"] {
+    width: 140px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 25px;
+    margin-bottom: 5px;
+    background-color: lightblue;
+}
+input[type="button"]:hover {
+    border: 1px solid rgba(0,0,0,0.4);
+    background-color: rgba(150,255,140,0.4);
+}
